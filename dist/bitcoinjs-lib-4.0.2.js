@@ -9,7 +9,7 @@ window.bitcoin = require('bitcoinjs-lib')
 // Merged Buffer refactorings from base58-native by Stephen Pair
 // Copyright (c) 2013 BitPay Inc
 
-var Buffer = require('safe-buffer').Buffer
+window.Buffer = require('safe-buffer').Buffer
 
 module.exports = function base (ALPHABET) {
   var ALPHABET_MAP = {}
