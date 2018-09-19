@@ -8,10 +8,16 @@ A javascript Bitcoin library for node.js and *ACTUALLY FOR BROWSERS*.
 
 Released under the terms of the [MIT LICENSE](LICENSE).
 
+## Installation For Browsers
+
+```bash
+bower install bitcoinjs-lib-for-browsers#4.0.2 --save
+```
+
 ## Usage
 
 ```html
-<script type="text/javascript" src="bower_components/bitcoinjs-lib-for-browsers/dist/bitcoinjs-lib-4.0.2.min.js"></script>
+<script src="bower_components/bitcoinjs-lib-for-browsers/dist/bitcoinjs-lib-4.0.2.min.js"></script>
 ```
 
 ## Should I use this in production?
